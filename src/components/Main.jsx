@@ -37,7 +37,7 @@ function Main() {
             bgcolor="#095368"
           ></Box>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={6} lg={4}>
           <Box sx={boxSx} >
               <CardMedia className="image"
                 component="img"
@@ -79,7 +79,7 @@ function Main() {
               </CardContent>
           </Box>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={6} lg={4}>
           <Box sx={boxSx}>
               <CardMedia className="image"
                 component="img"
@@ -122,7 +122,7 @@ function Main() {
               </CardContent>
           </Box>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={6} lg={4}>
           <Box sx={boxSx}>
               <CardMedia className="image"
                 component="img"
